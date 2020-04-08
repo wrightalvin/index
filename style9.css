@@ -1,0 +1,49 @@
+body {
+  background-color: aqua;
+  font-family: arial;
+  font-size: 14px;
+  background-image: url("images/bush.png");
+  background-repeat: repeat;
+}
+
+h1 {
+  color: black;
+  font-size: 48px;
+}
+
+.banner {
+  height: 250px;
+  background-image: url("images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  background-image: url("images/cow.jpg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: center;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+div {
+  padding: 10px;
+  max-width: 1400px;
+  /* border: solid black 1px; */
+  /* background-image: url("images/cow.jpg"); */
+  text-align: center;
+}
+​
+header {
+  text-align: center;
+}
+
+.menu {
+  max-width: 200px;
+}
