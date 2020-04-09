@@ -1,8 +1,7 @@
 body {
-  background-color: aqua;
   font-family: arial;
   font-size: 14px;
-  background-image: url("images/more-leaves.jpg");
+  background-image: url("images/bush.png");
   background-repeat: repeat;
   background-size: cover;
 }
